@@ -1,1 +1,12 @@
+from random import randint as r
 
+word_list = ["monster", "chips"]
+word = list(word_list[r(0,1)])
+
+hidden_word =["_"] * len(word)
+while True 
+   print("".join(hidden_word))
+letter = input("välj bokstav: ")
+for n in range(0, len(word)-1):
+        if letter == word[n]:
+            hiddenword[n] = letter 
